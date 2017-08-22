@@ -1,0 +1,23 @@
+{
+  "name": "ask-shinobi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatbot.js",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moeiscool/AskShinobi.git"
+  },
+  "author": "Moe Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moeiscool/AskShinobi/issues"
+  },
+  "homepage": "https://github.com/moeiscool/AskShinobi#readme"
+}
