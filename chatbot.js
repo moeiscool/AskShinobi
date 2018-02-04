@@ -63,7 +63,7 @@ client.on('message', msg => {
             if(!s.oneTimeMessages[foundTerm]){s.oneTimeMessages[foundTerm]={}}
             if(!s.oneTimeMessages[foundTerm][msg.username]){
                 s.oneTimeMessages[foundTerm][msg.username]=1
-                msg.theReply='Hi there! If you are looking for Moe please know that developer support provided in the Shinobi CE chat is a curteousy. Please ask the question without "@moeiscool" so that others feel okay to answer :smile:. Before asking for help please review the docs http://shinobi.video/docs/. If you would like direct support from a developer please consider a Support Package http://billing.place/cart/shinobi/ or Shinobi Pro http://billing.place/cart/shinobi-pro/. If you would like to make a business proposal you can start a direct message with Moe or fill out the contact form. http://shinobi.video/contact Thanks! :v::skin-tone-4: :sunglasses:'
+                msg.theReply='Hi there! If you are looking for Moe please know that developer support provided in the Shinobi CE chat is a curteousy. Please ask the question without "@moeiscool" so that others feel okay to answer :smile:. Before asking for help please review the docs http://shinobi.video/docs/. If you would like direct support from a developer please consider a Support Package http://billing.place/cart/shinobi/ or Shinobi Pro http://billing.place/cart/shinobi-pro/. If you would like to make a business proposal you can start a direct message with Moe, Thanks! :v::skin-tone-4: :sunglasses:'
             }
         break;
     }
